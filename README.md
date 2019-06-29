@@ -11,7 +11,7 @@ $ws = new WebScraper();
 $ws->scrape("url to scrape");
 ```
 ## Authentication required?
-If login is needed to access the page, call the following method and provide the url and paramaters. Web debuggers can help finding out what logins endpoints and paramaters are used for websites. You can check if the website was successfuly logged in by adding a return to line 36.
+If login is needed to access the page, call the following method and provide the url and paramaters. Web debuggers can help finding out what logins endpoints and paramaters are used for websites. You can check if the website was successfuly logged in by adding a return to line 36 and looking at the returned page.
 ```php
 $ws->login("login endpoint","username=hello&password=world");
 ```
