@@ -8,10 +8,10 @@ First, modify the "scrape" function (line 49) with the XPath to the data you are
 Then initizible the web scraper:
 ```php
 $ws = new WebScraper();
-$ws->scrape(" url to scrape");
+$ws->scrape("url to scrape");
 ```
 ## Authentication required?
-If login is needed to access the page, call the following method and provide the url and paramaters. 
+If login is needed to access the page, call the following method and provide the url and paramaters. Web debuggers can help finding out what logins endpoints and paramaters are used for websites.
 ```php
-$ws->login(" login endpoint "," username=hello&password=world");
+$ws->login("login endpoint","username=hello&password=world");
 ```
