@@ -64,10 +64,4 @@ class WebScraper{
 
 }
 
-
-
-$ws = new WebScraper();
-$ws->login("","");
-$ws->scrape("");
-
 ?>
